@@ -1,1 +1,2 @@
 Django Channel Based Real Time Chat Application( using websockets)
+Create a migrations folder inside apps/chat directory, create an empty __init__.py file inside it(so that django recognises your application)
