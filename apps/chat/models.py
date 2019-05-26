@@ -13,4 +13,4 @@ class Message(models.Model):
 
     @classmethod
     def last_10_messages(cls):
-        cls.objects.order_by('-timestamp').all()[:30]
+        return cls.objects.order_by('-timestamp').all()[:10]
